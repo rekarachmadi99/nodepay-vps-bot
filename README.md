@@ -9,7 +9,7 @@ Ikuti panduan berikut untuk menjalankan proyek **Nodepay VPS**:
 Clone repository ke dalam direktori lokal Anda:
 
 ```bash
-git clone https://github.com/rekarachmadi99/nodepay-vps.git
+git clone https://github.com/rekarachmadi99/nodepay-vps-bot.git
 cd nodepay-vps
 ```
 
