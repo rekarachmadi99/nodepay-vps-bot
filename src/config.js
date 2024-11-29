@@ -3,7 +3,7 @@ class Config {
     this.baseURL = "https://nodepay.org";
     this.ipCheckURL = "https://ipinfo.io/json";
     this.pingURL = "http://13.215.134.222/api/network/ping";
-    this.retryInterval = 1000;
+    this.retryInterval = 10000;
     this.sessionURL = "http://api.nodepay.ai/api/auth/session";
   }
 }

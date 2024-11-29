@@ -85,7 +85,12 @@ class Bot {
       }
 
       await axios.post(this.config.pingURL, dataPing, config);
-      console.log(`📡 ${"Ping terkirim".cyan} untuk UID: ${uid}`);
+      console.log(
+        `📡 ${"Ping terkirim".cyan} untuk UID: ${uid} dan USERNAME : ${
+          config.proxy.auth.username
+        }`
+      );
+      console.log(``);
     } catch (error) {
       throw new Error("Permintaan ping gagal");
     }

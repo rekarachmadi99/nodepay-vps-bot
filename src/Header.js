@@ -1,7 +1,7 @@
 export const Header = () => {
   const terminalWidth = process.stdout.columns;
 
-  const headerText = "CARI CUAN";
+  const headerText = "CARI CUAN - NODEPAY";
   const subHeaderText = "GitHub: rekarachmadi99";
   const separatorLine = "=============================";
 
